@@ -8,3 +8,9 @@ variable "name" {
   description = "private domain"
   type        = string
 }
+
+
+variable "virtual_network_id" {
+  type = string
+  description = "(optional) describe your variable"
+}
